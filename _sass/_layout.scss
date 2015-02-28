@@ -61,8 +61,8 @@
             text-align: center;
 
             > svg {
-                width: 22px;
-                height: 20px;
+                width: 18px;
+                height: 15px;
 
                 path {
                     fill: $grey-color-dark;
@@ -170,7 +170,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background: #ddd;
+    // background: #ddd;
 }
 
 .page-heading {
@@ -183,17 +183,24 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding: .5%;
+        // border-radius: 0px 0px 45px 0px;
+        background: #eee;
+        border-bottom: 5px solid #bbb;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    padding: .5%;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+    padding: .5%;
+
 }
 
 

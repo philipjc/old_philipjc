@@ -1,25 +1,20 @@
 ---
 layout: post
-title:  "New"
+title:  "My start, hello there."
 date:   2015-02-27 10:02:03
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Welcome to my new blog arena. Here I will document and discuss topics of interest and that of which I am currently learning in the field of web development. I also hope by sharing the below story to inspire anyone who feels stuck in a rut with work as I once did, that it's not to late and to get out there and find what makes you happy.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+A few years ago I decided it was high time to enjoy my working day. I have always felt comfortable in front of a computer and enjoyed any time I spend at one, but for some reason never made it a career. Leaving education at an early age I stumbled into construction and applied my hand to most trades but mostly carpentry. Wanting something more technical, I tried fire and intruder alarm engineering. Again, I got on just fine with this, but it was still work. I found myself reluctant to get up and go to work each day, it was time for that change, and at the age of 29 I felt it was not to late.
 
-Jekyll also offers powerful support for code snippets:
+I started by going back to college and completing a Math course, this was a real confidence boost for me and I felt I could go back to education. While back at college I was trying to decide what I might like to do as a career. I played a lot of computer games on a PC, also built my own PC rigs and had investigated games development and 3D modeling in the past via internet resources. As interesting as this was it did not grab my immediate attention, after more searching I discovered HTML and CSS/ web development. After playing with code for a week or two and making some terrible web pages (which I thought were amazing!) I was hooked.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I have now completed a higher education course in web design and development and a course in I.T foundations. While studying these academic courses I also used more modern internet resources to keep up to date with web development in general. I was loving my new found skills and a hidden ability to learn, that I never new I had. With a thirst for more I'm a year into a computer science degree with [Herts] online. And, I am also three months into a new front-end dev position at [Appsbroker], a Google for work cloud consultancy company making some great apps for people.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+In conclusion,  While a full-time job and part-time study is definitely taking a lot of effort, it is very enjoyable and rewarding. I work with some great people on awesome projects. And I look forward to each day at the office and to what I might learn next! Thank you to my family and friends for all your support.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Phil.
+
+[Herts]: http://www.herts.ac.uk/uhonline
+[Appsbroker]: http://www.appsbroker.com/

@@ -4,7 +4,7 @@ title:  "My start, hello there."
 date:   2015-02-27 10:02:03
 categories: Posts 1
 ---
-Welcome to my new blog arena. Here I will document and discuss topics of interest and that of which I am currently learning in the field of web development. I also hope by sharing the below story to inspire anyone who feels stuck in a rut with work as I once did, that it's not to late and to get out there and find what makes you happy.
+Welcome to my new blog arena. Here I will document and discuss topics of interest and that of which I am currently learning in the field of web development. I also hope by sharing the below story to inspire anyone who feels stuck in a rut with work as I once did, that it's not too late and to get out there and find what makes you happy.
 
 A few years ago I decided it was high time to enjoy my working day. I have always felt comfortable in front of a computer and enjoyed any time I spend at one, but for some reason never made it a career. Leaving education at an early age I stumbled into construction and applied my hand to most trades but mostly carpentry. Wanting something more technical, I tried fire and intruder alarm engineering. Again, I got on just fine with this, but it was still work. I found myself reluctant to get up and go to work each day, it was time for that change, and at the age of 29 I felt it was not too late.
 

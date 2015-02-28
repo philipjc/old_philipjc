@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: A blog for web development
 permalink: /about/
 ---
 

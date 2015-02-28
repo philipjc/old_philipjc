@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 10px solid $grey-color-dark;
+    border-bottom: 10px solid $grey-color-light;
     min-height: 56px;
+    background: #ccc;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -60,8 +61,8 @@
             text-align: center;
 
             > svg {
-                width: 18px;
-                height: 15px;
+                width: 22px;
+                height: 20px;
 
                 path {
                     fill: $grey-color-dark;
@@ -94,6 +95,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: #eee;
 }
 
 .footer-heading {
@@ -106,6 +108,11 @@
     list-style: none;
     margin-left: 0;
 }
+.social-media-list-item {
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
 
 .footer-col-wrapper {
     font-size: 15px;
@@ -116,8 +123,8 @@
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    // margin-bottom: $spacing-unit / 2;
+    // padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
@@ -163,6 +170,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background: #ddd;
 }
 
 .page-heading {
@@ -212,6 +220,7 @@
 
     h2 {
         font-size: 32px;
+
 
         @include media-query($on-laptop) {
             font-size: 28px;

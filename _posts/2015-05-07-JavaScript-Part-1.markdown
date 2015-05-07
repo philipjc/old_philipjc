@@ -10,20 +10,6 @@ Javascript is a dynamically typed language, this generally means it does not req
 
 To begin using JavaScript all you really need is a simple text editor and a browser. If your reading about JavaScript I will assume you have knowledge of writing HTML & CSS, I hope you do. Save one file as main.js, and another file as index.html. Above the last body tag of the index.html inside script tags, reference your main.js file with the src attribute.
 
-```
-
-<!doctype html>
-<head>
-<title>My Page</title>
-</head>
-<body>
-<h1>Starting JS</h1>
-
-<script src="main.js"></script>
-</body>
-</html>
-```
-
 There are many other parts of a html page, but this is enough to get you going. There are also more performant ways to inject JavaScript to the page, but this is more advanced and for another time.
 Start writing code, save and your away. Another easier and awesome way to write JS and how we debug our code is through the JS console. I always use Google Chrome and by pressing alt + cmd + j will bring up the console, here you can write JS directly into the browser and get a response. This is in fact how you will also view code you write in the main.js file.
 
@@ -151,7 +137,6 @@ You will use these short circuit operands as conditions to check a value passes 
 
 <code>
 var myNumber = 4;
-
 if (myNumber > 3 && myNumber <= 8 {
 	console.log('short-circuit');
 	}
@@ -172,7 +157,6 @@ function getThingByValue(value) {
 		};
 	return things[value] || 'this alternate message';
 }
-
 getThingByValue(red); = a red thing
 <code>
 

@@ -9,7 +9,8 @@ This is part 1, my overview of JavaScript. I will not be digging in too deeply o
 Javascript is a dynamically typed language, this generally means it does not require pre-compiling before running, the browser does this for us (woohoo). The language has been in existence for 20 years, and runs in all modern browsers. JavaScript was created by Brendan Eich at Netscape in 1995. Although it was only since around the year 2000, has it been taken seriously by most developers, this could be down to it's dominance in the browser now being seen as the standard language of the web, or the fact that people are finally realizing it is a good language for it's purpose and being made better with each new year (I can't have much say as I have only been programming for about 1.5 years now). Not only does JS run in the browser, it has made it's way over to the server with the help of NodeJS.
 
 To begin using JavaScript all you really need is a simple text editor and a browser. If your reading about JavaScript I will assume you have knowledge of writing HTML & CSS, I hope you do. Save one file as main.js, and another file as index.html. Above the last body tag of the index.html inside script tags, reference your main.js file with the src attribute.
-<code>
+
+{% highlight html %}
 
 <!doctype html>
 <head>
@@ -21,8 +22,7 @@ To begin using JavaScript all you really need is a simple text editor and a brow
 <script src="main.js"></script>
 </body>
 </html>
-
-<code>
+{% endhighlight %}
 
 There are many other parts of a html page, but this is enough to get you going. There are also more performant ways to inject JavaScript to the page, but this is more advanced and for another time.
 Start writing code, save and your away. Another easier and awesome way to write JS and how we debug our code is through the JS console. I always use Google Chrome and by pressing alt + cmd + j will bring up the console, here you can write JS directly into the browser and get a response. This is in fact how you will also view code you write in the main.js file.

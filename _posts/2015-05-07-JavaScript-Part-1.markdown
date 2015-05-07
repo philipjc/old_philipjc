@@ -10,6 +10,7 @@ Javascript is a dynamically typed language, this generally means it does not req
 
 To begin using JavaScript all you really need is a simple text editor and a browser. If your reading about JavaScript I will assume you have knowledge of writing HTML & CSS, I hope you do. Save one file as main.js, and another file as index.html. Above the last body tag of the index.html inside script tags, reference your main.js file with the src attribute.
 <code>
+
 <!doctype html>
 <head>
 <title>My Page</title>
@@ -20,6 +21,7 @@ To begin using JavaScript all you really need is a simple text editor and a brow
 <script src="main.js"></script>
 </body>
 </html>
+
 <code>
 
 There are many other parts of a html page, but this is enough to get you going. There are also more performant ways to inject JavaScript to the page, but this is more advanced and for another time.

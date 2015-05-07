@@ -4,7 +4,7 @@ title:  "Beginning JavaScript, Part 1"
 date:   2015-05-07 21:02:03
 categories: Posts 2
 ---
-This is part 1, my overview of JavaScript. I will not be digging in too deeply on the feature I cover, I will do this with subsequent posts. Let's begin.
+This is part 1, my overview of JavaScript. I will not be digging to deeply on the features I cover, I will do this with subsequent posts later, this way I can dedicate posts to higher level concepts of JS. Let's begin.
 
 Javascript is a dynamically typed language, this generally means it does not require pre-compiling before running, the browser does this for us (woohoo). The language has been in existence for 20 years, and runs in all modern browsers. JavaScript was created by Brendan Eich at Netscape in 1995. Although it was only since around the year 2000, has it been taken seriously by most developers, this could be down to it's dominance in the browser now being seen as the standard language of the web, or the fact that people are finally realizing it is a good language for it's purpose and being made better with each new year (I can't have much say as I have only been programming for about 1.5 years now). Not only does JS run in the browser, it has made it's way over to the server with the help of NodeJS.
 

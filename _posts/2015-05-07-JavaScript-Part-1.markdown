@@ -17,10 +17,10 @@ When I first started to learn programing in JS, summing up the obvious helped me
 
 Variables are the containers for our data. By using a variable, we are accessing the data.
 
-<code>
+{%highlight js%}
 var ourVarName = 'Hello World';
 console.log(ourVarName);
-<code>
+{% endhighlight %}
 
 Above I created a variable call 'ourVarName', we know it's a variable due to the var keyword. Inside I stored a String primitive with the text 'Hello World'. JavaScript has a console.log command to print JS to the console. If you have done the same in your main.js file, fire up the console and take a look.
 

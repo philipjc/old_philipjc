@@ -27,7 +27,7 @@ Above I created a variable call 'ourVarName', we know it's a variable due to the
 JavaScript is weakly typed so we don't have to specify the type of value a variable contains. Variables can hold any type of data, and they can be overwritten. However, this does mean we have to check our variables at some point with type checking so we don't accidentally end up with an unexspected value.
 
 {%highlight js%}
-console.log(typeof(ourVarName));
+console.log( typeof ourVarName );
 {% endhighlight %}
 
 At this point it's customary to say that programmers accustomed to a more statically typed language may not like this, and are now recoiling in horror.

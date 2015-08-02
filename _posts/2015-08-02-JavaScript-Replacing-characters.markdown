@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript, changing String characters"
-date:   2015-02-27 10:02:03
+date:   2015-08-02 17:53:05
 categories: Posts 3
 ---
 Getting good at something takes a lot of time and effort. Learning JavaScript is no exception.

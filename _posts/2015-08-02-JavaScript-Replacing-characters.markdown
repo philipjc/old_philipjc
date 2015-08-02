@@ -302,7 +302,7 @@ console.log(firstTry);
 
 Woop! It worked. So what about other character values? We can repeat the IF statement and change the letters in the IF and inside the forEach where we set changedChar. After writing this code (just to get it to work) I thought it was pretty verbose and not very DRY (dont repeat yourself) so I decided to move the repeated code out into a separate function. The end result;
 
-{% highlight %}
+{% highlight js%}
 function flippy(newDna, dnaPiece, newLetter, index) {
     var pos = index;
     var c = newDna.splice(index, 1);
@@ -342,7 +342,7 @@ After multiple test cases my functions were working. I clicked run inside the Co
 Not only did I pass, but as I mentioned at the start I got see the better solutions.
 The result I took away from the experience was very satisfying, it was my solution and I worked it out and at the same time got to know better some JS Methods. I also understand the more experienced solution and have learned from it. Here it is.
 
-{% highlight %}
+{% highlight js%}
 var pairs = {'A':'T','T':'A','C':'G','G':'C'};
 
 function DNAStrand(dna){

@@ -1,15 +1,6 @@
 /**
  * Site header
  */
- .social {
-
- }
- .social-link {
-    display: inline;
-    text-decoration: none;
-    margin-left: 40px;
- }
-
 .site-header {
     border-top: 10px solid $grey-color-dark;
     border-bottom: 10px solid $grey-color-light;
@@ -26,6 +17,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    margin-right: 20px;
 
     &,
     &:visited {

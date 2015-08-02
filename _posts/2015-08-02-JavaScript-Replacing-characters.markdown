@@ -8,7 +8,7 @@ Getting good at something takes a lot of time and effort. Learning JavaScript is
 I have recently taken up using the site CodeWars to practice my JS. CodeWars generates different programming problems for you to solve and earn point, once you finish one you can move to the next, I am aiming to do at least one every day. CodeWars also offer other language you can practice, Ruby, Python, C# and Java.
 I recently solved one said problem, and thought I'd share the result. This specific problem had me digging into many JS methods from the String prototype and Array prototype and really had me thinking. Until Boom! Solved, what a great feeling. It was not the most elegant or succinct solution, but it was my solution and I solved it. Once completed I was also able to see the higher ranked solutions, which was another great learning experience. So, without further adieu.
 
-*** The problem.
+### The problem.
 Create a function that takes a single value, a String. The String will be made up of [A]|[T]|[G]|[C] (This is basic Regular expression for A or T or G or C). With this String if the character is A change it to T, and perform similar functionality with the rest, T to A, G to C and C to G. Some examples of possible arguments were ['AAAA'], ['AATT'], ['ATGC'].
 
 This is the setup. Time to think.

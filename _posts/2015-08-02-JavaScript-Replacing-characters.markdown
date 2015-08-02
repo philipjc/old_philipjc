@@ -5,11 +5,16 @@ date:   2015-08-02 17:53:05
 categories: Posts 3
 ---
 Getting good at something takes a lot of time and effort. Learning JavaScript is no exception.
-I have recently taken up using the site CodeWars to practice my JS. CodeWars generates different programming problems for you to solve and earn point, once you finish one you can move to the next, I am aiming to do at least one every day. CodeWars also offer other language you can practice, Ruby, Python, C# and Java.
+I have recently taken up using the site [CodeWars] to practice my JS. [CodeWars] generates different programming problems for you to solve and earn point, once you finish one you can move to the next, I am aiming to do at least one every day. [CodeWars] also offer other language you can practice, Ruby, Python, C# and Java.
 I recently solved one said problem, and thought I'd share the result. This specific problem had me digging into many JS methods from the String prototype and Array prototype and really had me thinking. Until Boom! Solved, what a great feeling. It was not the most elegant or succinct solution, but it was my solution and I solved it. Once completed I was also able to see the higher ranked solutions, which was another great learning experience. So, without further adieu.
 
 ### The problem.
-Create a function that takes a single value, a String. The String will be made up of [A]|[T]|[G]|[C] (This is basic Regular expression for A or T or G or C). With this String if the character is A change it to T, and perform similar functionality with the rest, T to A, G to C and C to G. Some examples of possible arguments were ['AAAA'], ['AATT'], ['ATGC'].
+Create a function that takes a single value, a String. The String will be made up of
+{%highlight js%}
+[A]|[T]|[G]|[C]
+{% endhighlight %}
+(This is basic Regular expression for A or T or G or C).
+With this String if the character is A change it to T, and perform similar functionality with the rest, T to A, G to C and C to G. Some examples of possible arguments were ['AAAA'], ['AATT'], ['ATGC'].
 
 This is the setup. Time to think.
 {%highlight js%}
@@ -338,7 +343,7 @@ function DNAStrand(dna){
 console.log(DNAStrand('ATTGC'));
 {% endhighlight %}
 
-After multiple test cases my functions were working. I clicked run inside the CodeWars editor and passed all three test cases! I was super happy!
+After multiple test cases my functions were working. I clicked run inside the [CodeWars] editor and passed all three test cases! I was super happy!
 Not only did I pass, but as I mentioned at the start I got see the better solutions.
 The result I took away from the experience was very satisfying, it was my solution and I worked it out and at the same time got to know better some JS Methods. I also understand the more experienced solution and have learned from it. Here it is.
 
@@ -355,9 +360,9 @@ Return the result of a key value from an Object! So easy once you see it :)
 Well I hope you have enjoyed reading this experience of mine. Until next time!
 
 All of these Methods are attached to their prototype Objects, Sting.prototype, Array.prototype.
-Thanks to the great website of MDN I have access to all of this knowledge and references to JavaScript.
+Thanks to the great website of [MDN] I have access to all of this knowledge and references to JavaScript.
 
 You will notice I have not used the newer ES6 syntax in this post. I feel more people are still familiar with ES5 way of writing and this would be more understandable to a wider audience.
 
-[CodeWars]: http://www.codewars.com
+[CodeWars]: http://www.[CodeWars].com
 [MDN]: https://developer.mozilla.org

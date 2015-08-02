@@ -1,6 +1,13 @@
 /**
  * Site header
  */
+ .social {
+
+  &-link {
+    display: inline;
+  }
+ }
+
 .site-header {
     border-top: 10px solid $grey-color-dark;
     border-bottom: 10px solid $grey-color-light;

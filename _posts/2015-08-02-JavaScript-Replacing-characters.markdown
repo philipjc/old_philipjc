@@ -364,5 +364,5 @@ Thanks to the great website of [MDN] I have access to all of this knowledge and 
 
 You will notice I have not used the newer ES6 syntax in this post. I feel more people are still familiar with ES5 way of writing and this would be more understandable to a wider audience.
 
-[CodeWars]: http://www.[CodeWars].com
+[CodeWars]: http://www.CodeWars.com
 [MDN]: https://developer.mozilla.org

@@ -3,6 +3,7 @@ layout: post
 title:  "JavaScript, changing String characters"
 date:   2015-08-02 17:53:05
 categories: Posts 3
+permalink: /javascript-changing-string-characters
 ---
 Getting good at something takes a lot of time and effort. Learning JavaScript is no exception.
 I have recently taken up using the site [CodeWars] to practice my JS. [CodeWars] generates different programming problems for you to solve and earn point, once you finish one you can move to the next, I am aiming to do at least one every day. [CodeWars] also offer other language you can practice, Ruby, Python, C# and Java.

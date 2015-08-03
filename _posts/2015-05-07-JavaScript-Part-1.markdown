@@ -3,6 +3,7 @@ layout: post
 title:  "Beginning JavaScript, Part 1"
 date:   2015-05-07 21:02:03
 categories: Posts 2
+permalink: /beginning-javascript-part-1
 ---
 This is part 1, my overview of JavaScript. I will not be digging to deeply on the features I cover, I will do this with subsequent posts later, this way I can dedicate posts to higher level concepts of JS. Let's begin.
 

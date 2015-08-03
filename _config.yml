@@ -1,8 +1,9 @@
 # Site settings
- title: philipjc
+title: philipjc
  # email: your-email@domain.com
--description: A blog for web development
+description: A blog for web development
+permalink: short-urls-jekyll
 #-baseurl: "" # the subpath of your site, e.g. /blog/
- url: "http://www.philipjc.me" # the base hostname & protocol for your site
- twitter_username: _philipjc
- github_username:  philipjc
+url: "http://www.philipjc.me" # the base hostname & protocol for your site
+twitter_username: _philipjc
+github_username:  philipjc

@@ -16,7 +16,7 @@ Create a function that takes a single value, a String. The String will be made u
 (This is basic Regular expression for A or T or G or C).
 With this String if the character is A change it to T, and perform similar functionality with the rest, T to A, G to C and C to G. Some examples of possible arguments were ['AAAA'], ['AATT'], ['ATGC'].
 
-This is the setup. Time to think.
+This is the setup, time to think.
 {%highlight js%}
 function DNAStrand(dna) {
   // code here
@@ -25,8 +25,7 @@ function DNAStrand(dna) {
 }
 {% endhighlight %}
 
-My initial thought was I'm dealing with an String and I will need to check each character in the String for its value. This is where the Array Method .forEach would be handy, but forEach loops through an Array not a String? I will need to split this String up!. Time for the String.split() method.
-String.split(); will do exactly as in sounds, split up a Sting. Also it return the new split String inside an Array. Awesome!
+My initial thought was I'm dealing with a String and will need to check each character in the String for its value. This is where the Array Method .forEach would be handy, but forEach loops through an Array not a String? I will need to split this String up! Time for the String.split() method. String.split() will do exactly as in sounds, split up a Sting, also it return the new split String inside an Array. Awesome!
 
 {%highlight js%}
 function DNAStrand(dna) {
@@ -44,7 +43,7 @@ DNAStrand('AAAA');
 {% endhighlight %}
 
 Okay, nice. So now I have an Array with each individual character ready to loop over.
-Array.forEach() will loop through its attached Array and execute a a passed function on each element it loops over once. The function passed into forEach also takes the index argument which returns the index value of the current element looped over (this comes in handy later).
+Array.forEach() will loop through its attached Array and execute a passed function on each element it loops over once. The function passed into forEach also takes the index argument which returns the index value of the current element looped over (this comes in handy later).
 
 {%highlight js%}
 function DNAStrand(dna) {
@@ -85,7 +84,7 @@ function DNAStrand(dna) {
 DNAStrand('AAAA');
 {% endhighlight %}
 
-This condition returns TRUE for each letter currently, so we should see the console log four times. If I were to pass a different String like 'AATT' we would only see two console logs.
+This condition currently returns TRUE for each letter, so we should see the console-log four times. If I were to pass a different String like 'AATT' we would only see two console-logs.
 
 Okay, so now I have an Array of characters and I'm checking each one. So I guess now I should change the character to be the desired value. At this point I read up on a fair few different methods, indexOf(), charAt(), replace() and searched some more. I decided to go for a procedural approach and wrote out some sudo code to help me think.
 
@@ -100,7 +99,7 @@ Okay, so now I have an Array of characters and I'm checking each one. So I guess
 // Return the Array
 {% endhighlight %}
 
-Woh! There is a fair bit to do here, I'll explain each part and what Method I chose to use for each step. We have already performed the first three time to strore the index, here is where the forEach index argument helps.
+Woh! There is a fair bit to do here, I'll explain each part and what Method I chose to use for each step. We have already performed the first three steps, time to store the index. Here is where the forEach index argument helps.
 
 {%highlight js%}
 function DNAStrand(dna) {
@@ -191,7 +190,7 @@ function DNAStrand(dna) {
 DNAStrand('AAAA');
 {% endhighlight %}
 
-Here I saved character to equal character, but the popped version. And now we have our single character String value ready for change. Because we have a specific target for each character to equal (A - T, T - A and so on...) we know we need to make 'A' values equal a 'T'.
+Here I saved the variable character to equal itself, but the popped version. And now we have our single character String value ready for change. Because we have a specific target for each character to equal (A - T, T - A and so on...) we know we need to make 'A' values equal a 'T'.
 
 {%highlight js%}
 function DNAStrand(dna) {
@@ -217,7 +216,7 @@ function DNAStrand(dna) {
 DNAStrand('AAAA');
 {% endhighlight %}
 
-First of all I wanted to make sure the popped value was a String, so I parsed it with the toString() method. Then I just made the variable equal a new value 'T'. Now the our current character is the desired result, time to splice it back in with the three argument .splice() method.
+First of all I wanted to make sure the popped value was a String, so I parsed it with the toString() method. Then I just made the variable equal a new value 'T'. Now that our current character is the desired result, time to splice it back in with the three argument .splice() method.
 
 {%highlight js%}
 function DNAStrand(dna) {
@@ -305,7 +304,7 @@ console.log(firstTry);
 // ['AAAA']
 {% endhighlight %}
 
-Woop! It worked. So what about other character values? We can repeat the IF statement and change the letters in the IF and inside the forEach where we set changedChar. After writing this code (just to get it to work) I thought it was pretty verbose and not very DRY (dont repeat yourself) so I decided to move the repeated code out into a separate function. The end result;
+Woop! It worked. So what about other character values? We can repeat the IF statement and change the letters in the IF and inside the forEach where we set changedChar. After writing this code (just to get it to work) I thought it was pretty verbose and not very DRY (dont repeat yourself) so I decided to move the repeated code out into a separate function.
 
 {% highlight js%}
 function flippy(newDna, dnaPiece, newLetter, index) {
@@ -345,7 +344,7 @@ console.log(DNAStrand('ATTGC'));
 
 After multiple test cases my functions were working. I clicked run inside the [CodeWars] editor and passed all three test cases! I was super happy!
 Not only did I pass, but as I mentioned at the start I got see the better solutions.
-The result I took away from the experience was very satisfying, it was my solution and I worked it out and at the same time got to know better some JS Methods. I also understand the more experienced solution and have learned from it. Here it is.
+The result I took away from the experience was very satisfying, it was my solution and I worked it out, and at the same time got to know better some JS Methods. I also understand the more experienced solution and have learned from it, here it is.
 
 {% highlight js%}
 var pairs = {'A':'T','T':'A','C':'G','G':'C'};
@@ -357,7 +356,7 @@ function DNAStrand(dna){
 
 Return the result of a key value from an Object! So easy once you see it :)
 
-Well I hope you have enjoyed reading this experience of mine. Until next time!
+Well I hope you have enjoyed reading this experience of mine, until next time!
 
 All of these Methods are attached to their prototype Objects, Sting.prototype, Array.prototype.
 Thanks to the great website of [MDN] I have access to all of this knowledge and references to JavaScript.

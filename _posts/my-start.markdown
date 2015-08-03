@@ -3,6 +3,7 @@ layout: post
 title:  "My start, hello there."
 date:   2015-02-27 10:02:03
 categories: Posts 1
+permalink: /my-start
 ---
 Welcome to my new blog arena. Here I will document and discuss topics of interest and that of which I am currently learning in the field of web development. I also hope by sharing the below story to inspire anyone who feels stuck in a rut with work as I once did, that it's not too late and to get out there and find what makes you happy.
 

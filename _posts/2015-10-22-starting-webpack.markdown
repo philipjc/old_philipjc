@@ -6,7 +6,7 @@ categories: Posts 4
 permalink: /getting-started-with-webpack
 ---
 
-Welcome to 'Getting started with [Webpack]'. This will be a short post about how to get started with an awesome build tool called Webpack. If you are familiar with tools such as Gulp or Grunt, you're going to love Webpack (I do).
+Welcome to 'Getting started with [Webpack]'. This will be a short post about how to get started with an awesome build tool, called Webpack. If you are familiar with tools such as Gulp or Grunt, you're going to love Webpack (I do).
 
 What is it?
 Webpack is not just another build tool for cleaning up your code before deployment, and then concatenating it all into one file (it can do this, very well) ready to be served up. Webpack will take your modules and any dependencies and generate static assets defining said modules. Webpack chunks your code and serves it up when it is needed. This can dramatically increase the load times of your applications. Something to note though, code splitting is an opt in feature which we will get into later in the series. For now I would just like to show you how easy it is to set up a development environment for front end development.

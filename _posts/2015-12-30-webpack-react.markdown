@@ -108,8 +108,8 @@ function main() {
 
 Looking at the above snippet, using the ES2015 import syntax, we include the needed dependencies, including our component.js file, notice this is now imported with the new name, HeaderComponent, you will see why in that files code. Then we make and append the div element as before. Using ReactDOM's render method, the HeaderComponent get's attached to the div, passing in a 'title' property with the value 'React Baby!'. We will be able to access this property in the HeaderComponent.
 
-component.js
 {% highlight js%}
+// component.js
 
 import React from 'react';
 

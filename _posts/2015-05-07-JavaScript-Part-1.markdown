@@ -182,8 +182,7 @@ I hope we all remember our Math teachings, I talk of the acronym PEMDAS, parenth
 
 1 + 4 * 2 will not be 14. The 4 * 2 would get calculated first and then + 1, it will evaluate to 9. Where as ( 1 + 4 ) x 2 would be evaluate to 14.
 
-Comparison operators
-At some point while writing your JavaScript you will need to compare some values. Comparison operators can help you with this. There are two types, regular or strict comparison. This is easily noticed by either seeing two or three signs, 1 == true this is a regular comparison and it equals true. 1 === true, this as a strict comparison and equals false. Notice there are either two equal signs or three equal signs, two will compare if the values are the same, JS will also try i's best to help figure this out with cohersion, if you say try to compare the string '2' with the number 2. But three equal signs will strictly compare the type and comparing a string with a number will be false. It's best to stick with strict comparing for all comparison.
+Comparison operators, at some point while writing your JavaScript you will need to compare some values. Comparison operators can help you with this. There are two types, regular or strict comparison. This is easily noticed by either seeing two or three signs, 1 == true this is a regular comparison and it equals true. 1 === true, this as a strict comparison and equals false. Notice there are either two equal signs or three equal signs, two will compare if the values are the same, JS will also try i's best to help figure this out with cohersion, if you say try to compare the string '2' with the number 2. But three equal signs will strictly compare the type and comparing a string with a number will be false. It's best to stick with strict comparing for all comparison.
 
 {%highlight js%}
 var numberTwo = 2;
@@ -215,8 +214,7 @@ if (myNumber > 3 && myNumber <= 8 {
 	}
 {% endhighlight%}
 
-A better look at Objects.
-Objects are comma separated, key value pairs contained in curly braces. The key and value are known as properties of the object. The identifier of the property is the key, and the value is the value/data. Any data type, even arrays, objects and functions, which are known as methods when a property of an object can be stored as the value. We create object literals with a simple, var newValue = { }; the curly braces signify we have created an object. Once an object is created, properties/variables can be set to the object, as well as methods/functions. Furthermore we can use the 'new' key word to create an instance of the object just created. This way, you can have a default set of values for a generic object ready to use and expand on when needed. To access and use the objects, we use what's know as dot notation.
+A better look at Objects. Objects are comma separated, key value pairs contained in curly braces. The key and value are known as properties of the object. The identifier of the property is the key, and the value is the value/data. Any data type, even arrays, objects and functions, which are known as methods when a property of an object can be stored as the value. We create object literals with a simple, var newValue = { }; the curly braces signify we have created an object. Once an object is created, properties/variables can be set to the object, as well as methods/functions. Furthermore we can use the 'new' key word to create an instance of the object just created. This way, you can have a default set of values for a generic object ready to use and expand on when needed. To access and use the objects, we use what's know as dot notation.
 
 Square brackets can be used to access values in an object and you can update with square bracket notation. this is useful to use a variable as a key to access a value.
 
@@ -268,8 +266,7 @@ workingFunction(4, meCallBackFunc); // 6
 {% endhighlight %}
 
 
-Scope
-Scope defines the visibility of our variables throughout the code. With ES6 we have better ways of defining our scope with the let keyword, and block scope, but it is still an important feature to understand. The Global scope is the JavaScript top level scope, typically the window object.
+Scope. Scope defines the visibility of our variables throughout the code. With ES6 we have better ways of defining our scope with the let keyword, and block scope, but it is still an important feature to understand. The Global scope is the JavaScript top level scope, typically the window object.
 Contaminating the global scope with lots of variables is very bad, this is due to naming conflicts, overwriting and other messy stuff. Another down side to global variables is they are automatically added as properties to window object. It is good practice to contain our code keeping the scope of our variables in safe places where they cannot be contaminated.
 
 The window object is not bad and to be avoided, it has many useful properties we can use, finding out the url is one of them by using the location object which is a prop of window object.
@@ -283,8 +280,7 @@ Back to scope, the global scope contains all other scopes (when I scopes I mean 
 {% endhighlight %}
 
 
-This
-An unusual concept and one that can get tricky to explain is 'this'. This, can get interesting to read when explaining this on this blog post as this can easily get this out of context, hahaha a little joke.
+This. An unusual concept and one that can get tricky to explain is 'this'. This, can get interesting to read when explaining this on this blog post as this can easily get this out of context, hahaha a little joke.
 'this' normally refers to an object but it can be different values depending where it is used, when I say where it is used I literally mean using the keyword 'this' as a reference. The value of 'this' inside a new immediately invoked function expression is undefined as it is not set to anything. However, if we are inside a function that is the property of an object, 'this' will point toward that object. Outside of the function, 'this' points to the global window object, this is because defining a function in global scope automatically makes it a property of the window object. We can use functions to create instances of objects, in this case, 'this' points to the instantiated object. 'this' is also different with events, when the ui creates an event, 'this' points toward the element that triggers the event, if a button is clicked for example the button is 'this'. The methods .call, .bind and .apply can help us to point 'this' in different directions, we will see more on these methods another time.
 
 When creating your variables and functions name, we need to consider reserved words, also known as keywords. To avoid conflicting with JS and it's API's try to make your identifiers unique and semantic to your project. Most browsers or IDE's will alert you to the fact you are trying to use a keyword, like 'window' for example. As you learn JS better, you will come to realize what names not to use. JSlint or JShint can also help us to pick up error in our code, these perform static analysis on our code and inform us of mistakes. however key words could be used as property key names inside objects because we can wrap them in quotes, and then use bracket notation to access the properties. I prefer to stick with unique naming.

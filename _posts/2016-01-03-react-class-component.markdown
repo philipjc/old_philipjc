@@ -70,7 +70,7 @@ render() {
 {% endhighlight %}
 
 
-Following on we hit the render method of the component. The method immediately returns the components JSX (html). All elements need to be inside a parent tag, placing the h1 tag inside all lonely would throw an error. Talking of the h1, as you can see it has curly braces inside and a reference to the components state object, looking up the header property, this is how you can place dynamic data inside your component. Alternatively, we could have just placed 'this.props.title' inside the braces, and not set any state.
+Following on we hit the render method of the component. The method immediately returns the components JSX (html). All elements need to be inside a parent tag, placing the h1 tag inside all lonely would throw an error. Talking of the h1, as you can see it has curly braces inside and a reference to the components state object looking up the header property, this is how you can place dynamic data inside your component. Alternatively, we could have just placed 'this.props.title' inside the braces, and not set any state.
 
 
 {% highlight js%}

@@ -117,7 +117,22 @@ export default Main;
 
 As you can see above, I made some changes to the structure of the app. We no longer wanted to have Header component as the top level mounted component. So a component named Main was made for this. Main, imports Header and makes use of it inside its JSX. So, we can think of Main as our top level component. The component Menu also gets placed inside Main.
 
-See below for the Menu component.
+See below for the Menu component, and an updated Main.js
+{% highlight js%}
+import './styles/main.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Main from './Main.jsx';
+
+main();
+
+function main() {
+  const app = document.createElement('div');
+  document.body.appendChild(app);
+  ReactDOM.render(<Main />, app);
+}
+{% endhighlight %}
 
 {% highlight js%}
 import React from 'react';
@@ -146,8 +161,6 @@ class Menu extends React.Component {
 };
 
 export default Menu;
-
-
 {% endhighlight %}
 
 For ease, I set Mains state to hold a property called menu, this property contains an array of possible menu names. These names will be rendered as the individual menu items through a ListItem component. To achieve this, I use the ES5 Array map method to loop over each value in the array and return a ListItem component for each one. The map method returns an array back, React deals with arrays very well, and renders each component for us.

@@ -119,6 +119,7 @@ As you can see above, I made some changes to the structure of the app. We no lon
 
 See below for the Menu component, and an updated Main.js
 {% highlight js%}
+// Main.js
 import './styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -135,6 +136,7 @@ function main() {
 {% endhighlight %}
 
 {% highlight js%}
+// Menu.jsx
 import React from 'react';
 import ListItem from './ListItem.jsx';
 

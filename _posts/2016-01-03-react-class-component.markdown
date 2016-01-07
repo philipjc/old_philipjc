@@ -38,7 +38,7 @@ export default class HeaderComponent extends React.Component {
 HeaderComponent.propTypes = propTypes;
 {% endhighlight %}
 
-From the top, I import React using ES2015 imports. Following on, an object name propTypes gets created as a const, this gets used to set the components prop types at the end of the declaration. Setting your components expected prop types is a nice todo, because if you accidentally send an incorrect prop you will see an error. More on props later.
+From the top, I import React using ES2015 imports. Following on, an object name propTypes gets created as a const, this gets used to set the components prop types at the end of the declaration. Setting your components expected prop types is a nice todo, because if you accidentally send an incorrect prop you will see an error. The React documentation holds the ist of possible prop types you can set, [react-propTypes] More on props later.
 
 
 
@@ -198,3 +198,4 @@ Running npm start from your Terminal, you should now see a not very well style l
 [react-boot]: https://github.com/philipjc/webpack-blog-post
 [react-component]: https://github.com/philipjc/webpack-blog-post/tree/react-component
 [Airbnb]: https://github.com/airbnb/javascript/tree/master/react
+[react-propTypes]: https://facebook.github.io/react/docs/reusable-components.html
